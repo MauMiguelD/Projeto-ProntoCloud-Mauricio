@@ -14,7 +14,7 @@ body {
 .main-container {
     display: block;
     width: 100vw;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
     float: left;
     padding: 20px;
     max-width: 100%;
-    margin: auto;
+    margin: 0 auto;
     max-width: 1198px;
 }
 
