@@ -1,17 +1,20 @@
 
 html {
-    font-size: 62.5%;
+    font-size: 60%;
 }
 
 body {
     background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .main-container {
     display: block;
     width: 100vw;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .container {
@@ -19,7 +22,7 @@ body {
     float: left;
     padding: 20px;
     max-width: 100%;
-    margin: 0 auto;
+    margin: auto;
     max-width: 1198px;
 }
 
@@ -33,26 +36,26 @@ header {
 }
 
 h1 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     color: #254159;
     margin-bottom: 20px;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #254159;
     margin-bottom: 20px;
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #254159;
     margin-bottom: 20px;
     padding-top: 10px;
 }
 
 h4 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #385874;
     margin-bottom: 10px;
     padding-top: 10px;
@@ -90,7 +93,7 @@ ol {
 }
 
 ol li {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #454545;
 }
 
@@ -98,7 +101,7 @@ section {
     background-color: #fff;
     display: block;
     float: left;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 20px;
     width: 100%;
 }
@@ -132,6 +135,7 @@ section article {
     display: block;
     float: left;
     width: 70%;
+    position: relative;
 }
 
 footer {
@@ -161,8 +165,7 @@ footer small {
     section nav,
     section article {
         width: 100%;
-        min-width: 425;
-    }  
+    }
 
     .container {
         padding-left: 1%;
