@@ -93,7 +93,7 @@ img {
 
 #tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
 #tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
-    color: #385874;
+    color: #385874;    
 }
 
 ol {
@@ -167,8 +167,11 @@ footer small {
 .cognito {
     height: 380px !important;
     overflow: hidden !important;
-    float: right;
-    width: 40%;
+}
+
+iframe {
+    width: 600px;
+    margin-left: 1%;
 }
 
 @media (max-width: 768px) {
