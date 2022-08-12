@@ -150,13 +150,15 @@ footer {
     background-color: #254159;
     display: block;
     float: left;
-    padding: 20px 0;
+    padding: 20px;
     width: 100%;
 }
 
 footer p {
     color: #ffffff;
     font-size: 1.4rem;
+    padding-left: 40%;
+    float: left;
 }
 
 footer small {
@@ -172,6 +174,7 @@ footer small {
 iframe {
     width: 600px;
     margin-left: 1%;
+    padding-left: 45%;
 }
 
 @media (max-width: 768px) {
